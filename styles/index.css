@@ -1,4 +1,22 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+.container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin: 0px 8px 0px 8px;
+    border-radius: 70px;
 }
