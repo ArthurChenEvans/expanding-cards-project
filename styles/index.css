@@ -5,7 +5,6 @@
     height: 100vh;
 }
 
-
 .container {
     width: 100vw;
     display: flex;
@@ -22,8 +21,17 @@
     transition: flex 0.5s ease-in-out;
 }
 
+.image:hover {
+    cursor: pointer;
+}
+
 .active {
     flex: 5;
     transition: flex 0.5s ease-in-out;
 }
 
+@media only screen and (max-width: 480px) {
+    .image:nth-of-type(4), .image:nth-of-type(5) {
+        display: none;
+    }
+}
